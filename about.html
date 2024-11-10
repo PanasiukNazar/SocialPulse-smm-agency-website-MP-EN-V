@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>SocialPulse</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Poppins:wght@600;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Topbar Start -->
+        <div
+            class="container-fluid bg-dark text-white-50 py-2 px-0 d-none d-lg-block"
+        >
+            <div class="row gx-0 align-items-center">
+                <div class="col-lg-7 px-5 text-start">
+                    <div class="h-100 d-inline-flex align-items-center me-4">
+                        <small class="fa fa-phone-alt me-2"></small>
+                        <small>+27767204971</small>
+                    </div>
+                    <div class="h-100 d-inline-flex align-items-center me-4">
+                        <small class="far fa-envelope-open me-2"></small>
+                        <small>social_pulse@gmail.com</small>
+                    </div>
+                    <div class="h-100 d-inline-flex align-items-center me-4">
+                        <small class="far fa-clock me-2"></small>
+                        <small>Mon - Fri : 09 AM - 09 PM</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+        <!-- Navbar Start -->
+        <nav
+            class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5"
+        >
+            <a href="index.html" class="navbar-brand d-flex align-items-center">
+                <h1 class="m-0">SocialPulse</h1>
+            </a>
+            <button
+                type="button"
+                class="navbar-toggler"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div
+                    class="navbar-nav mx-auto bg-light rounded pe-4 py-3 py-lg-0"
+                >
+                    <a href="index.html" class="nav-item nav-link">Home</a>
+                    <a href="about.html" class="nav-item nav-link active"
+                        >About Us</a
+                    >
+                    <a href="service.html" class="nav-item nav-link"
+                        >Our Services</a
+                    >
+                    <a href="testimonial.html" class="nav-item nav-link"
+                        >Testimonial</a
+                    >
+                    <a href="contact.html" class="nav-item nav-link"
+                        >Contact Us</a
+                    >
+                </div>
+            </div>
+            <a
+                href="contact.html"
+                class="btn btn-primary px-3 d-none d-lg-block"
+                >Contact us</a
+            >
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Page Header Start -->
+        <div
+            class="container-fluid page-header bg1 py-5 mb-5 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div class="container py-5">
+                <h1 class="display-4 animated slideInDown mb-4">About Us</h1>
+                <nav aria-label="breadcrumb animated slideInDown">
+                    <ol class="breadcrumb mb-0">
+                        <li class="breadcrumb-item">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li class="breadcrumb-item active" aria-current="page">
+                            About
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+        <!-- Page Header End -->
+
+        <!-- About Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div
+                            class="position-relative overflow-hidden rounded ps-5 pt-5 h-100"
+                            style="min-height: 400px"
+                        >
+                            <img
+                                class="position-absolute w-100 h-100"
+                                src="img/about.jpg"
+                                alt=""
+                                style="object-fit: cover"
+                            />
+                            <div
+                                class="position-absolute top-0 start-0 bg-white rounded pe-3 pb-3"
+                                style="width: 200px; height: 200px"
+                            >
+                                <div
+                                    class="d-flex flex-column justify-content-center text-center bg-primary rounded h-100 p-3"
+                                >
+                                    <h1 class="text-white mb-0">15</h1>
+                                    <h2 class="text-white">Years</h2>
+                                    <h5 class="text-white mb-0">Experience</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="h-100">
+                            <h1 class="display-6 mb-5">
+                                Expert Social Media Marketing Solutions for Your
+                                Brand
+                            </h1>
+
+                            <div class="row g-4 mb-4">
+                                <div class="col-sm-6">
+                                    <div class="d-flex align-items-center">
+                                        <img
+                                            class="flex-shrink-0 me-3"
+                                            src="img/icon/icon-04-primary.png"
+                                            alt=""
+                                        />
+                                        <h5 class="mb-0">
+                                            Tailored Social Media Strategies
+                                        </h5>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="d-flex align-items-center">
+                                        <img
+                                            class="flex-shrink-0 me-3"
+                                            src="img/icon/icon-03-primary.png"
+                                            alt=""
+                                        />
+                                        <h5 class="mb-0">
+                                            Engaging Content Creation
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="mb-4">
+                                We specialize in crafting customized social
+                                media strategies that align with your brand's
+                                voice and goals. Our team of experts is
+                                passionate about creating content that not only
+                                resonates with your audience but also drives
+                                meaningful engagement across platforms. We aim
+                                to help businesses grow their online presence
+                                and establish lasting relationships with
+                                customers.
+                            </p>
+                            <div class="border-top mt-4 pt-4">
+                                <div class="d-flex align-items-center">
+                                    <img
+                                        class="flex-shrink-0 rounded-circle me-3"
+                                        src="img/profile.jpg"
+                                        alt=""
+                                    />
+                                    <h5 class="mb-0">Call Us: +27767204971</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Team Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center mx-auto" style="max-width: 500px">
+                    <h1 class="display-6 mb-5">
+                        Meet Our Professional Team Members
+                    </h1>
+                </div>
+                <div class="row g-4">
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="team-item rounded">
+                            <img
+                                class="img-fluid"
+                                src="img/team-1.jpg"
+                                alt=""
+                            />
+                            <div class="text-center p-4">
+                                <h5>Alex Johnson</h5>
+                                <span>Senior SMM Specialist</span>
+                            </div>
+                            <div class="team-text text-center bg-white p-4">
+                                <p>
+                                    Alex is a seasoned social media strategist
+                                    with over 15 years of experience in
+                                    developing campaigns that boost brand
+                                    visibility and engagement. He specializes in
+                                    creating personalized strategies that drive
+                                    results and create lasting connections with
+                                    target audiences.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div class="team-item rounded">
+                            <img
+                                class="img-fluid"
+                                src="img/team-2.jpg"
+                                alt=""
+                            />
+                            <div class="text-center p-4">
+                                <h5>Maria Rodriguez</h5>
+                                <span>Content Creation Lead</span>
+                            </div>
+                            <div class="team-text text-center bg-white p-4">
+                                <p>
+                                    Maria leads our content creation team,
+                                    focusing on producing engaging and creative
+                                    social media content. With her extensive
+                                    background in visual storytelling, she
+                                    ensures that every piece of content aligns
+                                    with our clients’ brand identity and engages
+                                    their followers.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="team-item rounded">
+                            <img
+                                class="img-fluid"
+                                src="img/team-4.jpg"
+                                alt=""
+                            />
+                            <div class="text-center p-4">
+                                <h5>James Lee</h5>
+                                <span>Social Media Analyst</span>
+                            </div>
+                            <div class="team-text text-center bg-white p-4">
+                                <p>
+                                    James is our social media analyst who
+                                    specializes in tracking the performance of
+                                    social media campaigns. He is passionate
+                                    about using data to optimize strategies,
+                                    ensuring our clients achieve their marketing
+                                    objectives efficiently.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.7s"
+                    >
+                        <div class="team-item rounded">
+                            <img
+                                class="img-fluid"
+                                src="img/team-3.jpg"
+                                alt=""
+                            />
+                            <div class="text-center p-4">
+                                <h5>Sophia Patel</h5>
+                                <span>Community Engagement Specialist</span>
+                            </div>
+                            <div class="team-text text-center bg-white p-4">
+                                <p>
+                                    Sophia is an expert in building and
+                                    nurturing online communities. She focuses on
+                                    enhancing audience interaction and creating
+                                    spaces where followers feel heard, valued,
+                                    and engaged with the brand.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid bg-dark footer mt-5 pt-5 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h1 class="text-white mb-4">SocialPulse</h1>
+                        <p>
+                            Thank you for visiting our site. We are dedicated to
+                            providing you with the latest insights and
+                            strategies in social media marketing. From content
+                            creation to engagement tactics, we offer practical
+                            advice to help you grow your brand online.
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-light mb-4">Address</h5>
+                        <p>
+                            <i class="fa fa-map-marker-alt me-3"></i>5 Capricorn
+                            St, Van Riebeeck Park, Kempton Park, 1619, South
+                            Africa
+                        </p>
+                        <p><i class="fa fa-phone-alt me-3"></i>+27767204971</p>
+                        <p>
+                            <i class="fa fa-envelope me-3"></i
+                            >social_pulse@gmail.com
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-light mb-4">Quick Links</h5>
+                        <a class="btn btn-link" href="about.html">About Us</a>
+                        <a class="btn btn-link" href="contact.html"
+                            >Contact Us</a
+                        >
+                        <a class="btn btn-link" href="service.html"
+                            >Our Services</a
+                        >
+                        <a class="btn btn-link" href="terms-of-use.html"
+                            >Terms & Condition</a
+                        >
+                        <a class="btn btn-link" href="privacy-policy.html"
+                            >Privacy</a
+                        >
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-light mb-4">Newsletter</h5>
+                        <p>
+                            Stay ahead in the world of social media marketing
+                            with our newsletter. Receive timely updates, expert
+                            insights, and valuable tips directly to your inbox
+                        </p>
+                        <div
+                            class="position-relative mx-auto"
+                            style="max-width: 400px"
+                        >
+                            <input
+                                class="form-control bg-transparent w-100 py-3 ps-4 pe-5"
+                                type="text"
+                                placeholder="Your email"
+                                id="email"
+                            />
+                            <button
+                                type="button"
+                                class="btn btn-secondary py-2 position-absolute top-0 end-0 mt-2 me-2"
+                                id="submit"
+                                onclick="sendForm()"
+                            >
+                                SignUp
+                            </button>
+                        </div>
+                        <div
+                            id="result"
+                            style="color: red; font-size: 12px"
+                        ></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+            ><i class="bi bi-arrow-up"></i
+        ></a>
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Cookie Consent</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    This website uses cookies to provide you with a superior and
+                    more relevant browsing experience on the site.
+                    <a href="#">Learn more...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Accept</button>
+                <button class="cookie-button" id="declineBtn">Decline</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/contact-form.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
